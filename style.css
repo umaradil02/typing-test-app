@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: whitesmoke;
+    text-align: center;
+}
+.container{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.tittle{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 600;
+    width: 100%;
+    background: skyblue;
+    text-transform: uppercase;
+    border-bottom: .2px solid rgba(0,0, 0, 0.2);
+}
+.error,.wpm,.timer,.accuracy,.cpm{
+    background-color: #fff;
+    width: 90px;
+    height: 80px;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 20%;
+    box-shadow: 5px 8px 5px rgba(0,0, 0, 0.2);
+}
+.head{
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: skyblue;
+    text-align: center;
+}
+.wpm-content,.cpm-content,.accuracy-content,.error-content,.timer-content{
+    font-size: 2.5rem;
+}
+.cpm,.wpm{
+    display: none;
+}
+.error-content{
+    color: rgba(245, 12, 12, 0.932);
+}
+.content{
+    display: none;
+    background-color: #fff;
+    margin: 10px;
+    font-weight: 800;
+    padding: 25px;
+    box-shadow: 5px 8px 5px rgba(0,0, 0, 0.2);
+    border-radius: 10px;
+}
+.input-box{
+    background-color: #fff;
+    height: 150px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px;
+    padding: 15px;
+    resize: none;
+    overflow-y: hidden;
+    border: 0px;
+    box-shadow: 5px 8px 5px rgba(0,0, 0, 0.2);
+    border-radius: 10px;
+    outline: none;
+}
+.start{
+    background-color: skyblue;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 30%;
+    margin: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 5px 8px 5px rgba(0,0, 0, 0.2);
+}
+.restart{
+    display: none;
+    background-color: skyblue;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 30%;
+    margin: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 5px 8px 5px rgba(0,0, 0, 0.2);
+}
+.restart:hover,.start:hover{
+    box-shadow: none;
+}
+.incorrect_char { 
+    color: red; 
+    text-decoration: underline; 
+  } 
+    
+  .correct_char { 
+    color: darkgreen; 
+  } 

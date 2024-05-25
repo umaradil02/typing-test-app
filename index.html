@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tittle">typing speed test app</div>
+        <div class="header">
+            <div class="wpm">
+                <div class="head">words/min</div>
+                <div class="wpm-content">100</div>
+            </div>
+            <div class="cpm">
+                <div class="head">cpm</div>
+                <div class="cpm-content">100</div>
+            </div>
+            <div class="error">
+                <div class="head">Error</div>
+                <div class="error-content">0</div>
+            </div>
+            <div class="timer">
+                <div class="head">time(s)</div>
+                <div class="timer-content">60</div>
+            </div>
+            <div class="accuracy">
+                <div class="head">accuracy(%)</div>
+                <div class="accuracy-content">100</div>
+            </div>
+        </div>
+        <div class="content">Click on the area below to start the game</div>
+        <textarea class="input-box" placeholder="start typing..." onfocus="startGame()" ></textarea>
+        <button class="start" >start</button>
+        <button class="restart" >restart</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
